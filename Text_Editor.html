@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div id="body">
+        <h1 id="header-text" style="color: #22f006;">Assignment</h1>
+    </div>
+
+    <div id="toolbar">
+        <button id="undo">&#8634; Undo</button>
+        <button id="redo">&#8635; Redo</button>
+    </div>
+
+    <div id="editor" contenteditable="true" style="border: 1px solid #ccc; padding: 10px; min-height: 300px; width: 60%; background-color: #f5f5f5;">
+        
+    </div>
+
+    <div id="features">
+        <select id="font-family">
+            <option value="Font">Font</option>
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Calibri">Calibri</option>
+        </select>
+        <select id="font-size">
+            <option value="12px">12px</option>
+            <option value="14px">14px</option>
+            <option value="16px">16px</option>
+        </select>
+        <select id="font-style">
+            <option value="normal">Normal</option>
+            <option value="italic">Italic</option>
+            <option value="oblique">Oblique</option>
+        </select>
+        <button id="bold">Bold</button>
+        <button id="italic">Italic</button>
+    </div>
+
+    <div>
+        <button id="Text">Add Text</button>
+    </div>
+     
+    <script src="JavaScript.js"></script>
+
+    
+</body>
+</html>
